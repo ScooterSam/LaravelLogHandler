@@ -2,12 +2,23 @@
   "name": "scootersam/laravel-log-handler",
   "description": "A log/error handler for the iDevelopThings logger.",
   "type": "libary",
-  "license": "mit",
+  "license": "MIT",
   "require": {
     "php": ">=5.3.0",
     "illuminate/support": "^5.4",
     "illuminate/log": "^5.4",
     "nesbot/carbon": "^1.22"
   },
-  "minimum-stability": "dev"
+  "autoload": {
+    "psr-4": {
+      "ScooterSam\\LaravelLogHandler\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
