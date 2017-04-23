@@ -8,6 +8,6 @@
     "illuminate/log": "^5.4",
     "nesbot/carbon": "^1.22"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
