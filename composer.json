@@ -1,0 +1,7 @@
+{
+    "name": "scootersam/laravel-log-handler",
+    "description": "A log/error handler for the iDevelopThings logger.",
+    "type": "libary",
+    "license": "mit",
+    "require": {}
+}
