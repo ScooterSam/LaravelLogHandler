@@ -4,10 +4,10 @@
   "type": "libary",
   "license": "mit",
   "require": {
+    "php": ">=5.3.0"
     "illuminate/support": "^5.4",
     "illuminate/log": "^5.4",
     "nesbot/carbon": "^1.22"
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  "minimum-stability": "dev",
 }
