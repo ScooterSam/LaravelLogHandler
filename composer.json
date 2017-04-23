@@ -1,7 +1,13 @@
 {
-    "name": "scootersam/laravel-log-handler",
-    "description": "A log/error handler for the iDevelopThings logger.",
-    "type": "libary",
-    "license": "mit",
-    "require": {}
+  "name": "scootersam/laravel-log-handler",
+  "description": "A log/error handler for the iDevelopThings logger.",
+  "type": "libary",
+  "license": "mit",
+  "require": {
+    "illuminate/support": "^5.4",
+    "illuminate/log": "^5.4",
+    "nesbot/carbon": "^1.22"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
